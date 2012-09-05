@@ -1,9 +1,10 @@
 #Githook
 
-Githubにpushされた際に、hookされるスクリプト  
-WebHook URLsにて、このスクリプトのURLを指定  
+Githubにpushされた際に、hookされるSinatraアプリ  
+WebHook URLsにて、このアプリのURLを指定  
 ***
 
-- pushされたブランチをデプロイ(git clone or pull)する
+- Githubにpushされたブランチを,指定ディレクトリにデプロイ(clone)する
+- 既にcloneされていた場合は,git pull
+- Github上のリモートブランチを削除した場合は,指定ディレクトリからも削除
 - デプロイ時に外部スクリプトを呼び出す
-
