@@ -1,6 +1,9 @@
-Githook
-==========
+#Githook
 
-Githubにpushされた際に、hookされる。
-ブランチ毎にクローンして、デプロイする。
-別途、デプロイ時に用いる外部スクリプトを呼び出す。
+Githubにpushされた際に、hookされるスクリプト  
+WebHook URLsにて、このスクリプトのURLを指定  
+***
+
+- pushされたブランチをデプロイ(git clone or pull)する
+- デプロイ時に外部スクリプトを呼び出す
+
