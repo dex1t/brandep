@@ -1,0 +1,3 @@
+api_key: "samplekey"
+deploy_dir: "/var/hogehoge/dir"
+deploy_script: "/var/hogehoge/dep.sh"
