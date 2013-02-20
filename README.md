@@ -1,7 +1,7 @@
-#Githook
+#brandep
 
 Githubにpushされた際に、hookされるSinatraアプリ  
-WebHook URLsにて、このアプリのURLを指定  
+WebHook URLsにて、このアプリのURLを指定してね  
 ***
 
 - Githubにpushされたブランチを,指定ディレクトリにデプロイ(clone)する
